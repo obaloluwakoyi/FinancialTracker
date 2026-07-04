@@ -1,0 +1,14 @@
+services:
+  finance-manager:
+    build: .
+    container_name: finance-manager
+    ports:
+      - "8501:8501"
+    volumes:
+      - finance_data:/app/data
+    environment:
+      - DB_DIR=/app/data
+    restart: unless-stopped
+
+volumes:
+  finance_data:

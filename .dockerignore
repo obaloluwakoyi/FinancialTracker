@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.gitignore
+.streamlit/secrets.toml
+finance_system.db
+*.db
+.venv/
+venv/
+.DS_Store
+README.md
