@@ -2,6 +2,8 @@
 
 A Streamlit web app to track **expenditure, revenue, profit/loss, budgets, investments, loans, and sales** (with a product catalog) for one person or a whole team — backed by a local SQLite database.
 
+live demo:-https://financialtracker-q2l.streamlit.app/
+
 ## Features
 
 - **Sales** — build a sale from multiple products (or custom items), auto-deducts stock, computes totals
